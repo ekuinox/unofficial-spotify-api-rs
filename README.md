@@ -17,7 +17,7 @@ $ cd unofficial-spotify-api-rs
 $ makers cli
 ```
 
-楽曲クレジットを取得するには`credit`サブコマンドに楽曲のURLを渡して実行する
+楽曲クレジットを取得するには`credits`サブコマンドに楽曲のURLを渡して実行する
 
 ```console
 $ makers cli credits https://open.spotify.com/track/1v8QHnM1K1wa6qg3DuL2SO
