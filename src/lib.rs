@@ -116,6 +116,9 @@ impl Client {
 #[tokio::test]
 async fn test_() {
     let client = Client::init().await.unwrap();
-    let view = client.track_credits_view("54j9GjLXsyRqGyu1kYpk6O").await.unwrap();
+    let view = client
+        .track_credits_view("54j9GjLXsyRqGyu1kYpk6O")
+        .await
+        .unwrap();
     dbg!(view);
 }

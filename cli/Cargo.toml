@@ -1,0 +1,24 @@
+[package]
+name = "unofficial-spotify-cli"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies.unofficial-spotify-api]
+path = "../"
+
+[dependencies.tokio]
+version = "1"
+features = ["full"]
+
+[dependencies.clap]
+version = "4"
+features = ["derive"]
+
+[dependencies.anyhow]
+workspace = true
+
+[dependencies.reqwest]
+workspace = true
+
+[dependencies.itertools]
+version = "0.10.5"

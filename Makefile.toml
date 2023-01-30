@@ -1,0 +1,7 @@
+[env]
+CLI_PACKAGE = "unofficial-spotify-cli"
+
+[tasks.cli]
+workspace = false
+command = "cargo"
+args = ["run", "--package", "${CLI_PACKAGE}", "--", "${@}"]
